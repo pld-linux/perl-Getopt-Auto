@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Getopt
-%define	pnam	Auto
+%define		pdir	Getopt
+%define		pnam	Auto
 Summary:	Getopt::Auto - framework for command-line applications
 Summary(pl):	Getopt::Auto - szkielet do aplikacji dzia³aj±cych z linii poleceñ
 Name:		perl-Getopt-Auto
