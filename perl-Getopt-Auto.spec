@@ -43,7 +43,7 @@ tego kodu, pozwalaj±c skoncentrowaæ siê na czê¶ci funkcjonalnej.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
