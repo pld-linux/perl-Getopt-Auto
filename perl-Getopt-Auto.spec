@@ -6,7 +6,7 @@
 %define	pdir	Getopt
 %define	pnam	Auto
 Summary:	Getopt::Auto - Framework for command-line applications
-#Summary(pl):	
+Summary(pl):	Getopt::Auto - szkielet do aplikacji dzia³aj±cych z linii poleceñ
 Name:		perl-Getopt-Auto
 Version:	1.00
 Release:	1
@@ -25,13 +25,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Unix command line applications, rather than simple filters, are pretty
 unpleasant to write; as well as actually writing the functionality,
 there's the boring parsing of the command line arguments and so on. Even
-with C<Getopt::Long> or equivalent, you still have to dispatch the
-appropriate commands to the right subroutines, write a C<--help> and
-C<--version> handler, and so on. This module abstracts out that code,
+with Getopt::Long or equivalent, you still have to dispatch the
+appropriate commands to the right subroutines, write a --help and
+--version handler, and so on. This module abstracts out that code,
 leaving you free just to concentrate on the functional part.
 
-# %description -l pl
-# TODO
+%description -l pl
+Uniksowe aplikacje dzia³aj±ce z linii poleceñ, bardziej ni¿ proste
+filtry, s± do¶æ nieprzyjemne przy pisaniu; oprócz w³a¶ciwego pisania
+funkcjonalno¶ci, jest jeszcze nudne analizowanie argumentów linii
+poleceñ itp. Nawet z u¿yciem Getopt::Long lub ekwiwalentu, nadal trzeba
+przekierowywaæ odpowiednie polecenia do w³a¶ciwych funkcji, pisaæ
+obs³ugê --help i --version itd. Ten modu³ umo¿liwia wyabstrahowanie
+tego kodu, pozwalaj±c skoncentrowaæ siê na czê¶ci funkcjonalnej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
