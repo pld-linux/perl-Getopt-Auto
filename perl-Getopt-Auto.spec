@@ -45,7 +45,7 @@ tego kodu, pozwalaj±c skoncentrowaæ siê na czê¶ci funkcjonalnej.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
