@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Getopt
 %define	pnam	Auto
-Summary:	Getopt::Auto - Framework for command-line applications
+Summary:	Getopt::Auto - framework for command-line applications
 Summary(pl):	Getopt::Auto - szkielet do aplikacji dzia³aj±cych z linii poleceñ
 Name:		perl-Getopt-Auto
 Version:	1.00
