@@ -10,7 +10,7 @@ Summary(pl):	Getopt::Auto - szkielet do aplikacji dzia³aj±cych z linii poleceñ
 Name:		perl-Getopt-Auto
 Version:	1.00
 Release:	2
-License:	?
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f3362fa348d4ef2770b691d5d261f60d
