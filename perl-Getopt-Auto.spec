@@ -9,7 +9,7 @@ Summary:	Getopt::Auto - framework for command-line applications
 Summary(pl.UTF-8):	Getopt::Auto - szkielet do aplikacji działających z linii poleceń
 Name:		perl-Getopt-Auto
 Version:	1.00
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
